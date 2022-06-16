@@ -1,0 +1,71 @@
+{
+  "pathClasses": [
+    {
+      "name": "Unclassified"
+    },
+    {
+      "name": "Tumor",
+      "color": -3670016
+    },
+    {
+      "name": "Stroma",
+      "color": -4993793
+    },
+    {
+      "name": "Immune cells",
+      "color": -6268256
+    },
+    {
+      "name": "Necrosis",
+      "color": -13487566
+    },
+    {
+      "name": "Other",
+      "color": -14336
+    },
+    {
+      "name": "Region*",
+      "color": -16777036
+    },
+    {
+      "name": "Ignore*",
+      "color": -4934476
+    },
+    {
+      "name": "Positive",
+      "color": -377282
+    },
+    {
+      "name": "Cell",
+      "color": -13706432
+    },
+    {
+      "name": "VeriteTerrain",
+      "color": -10299931
+    },
+    {
+      "name": "Prediction",
+      "color": -1671091
+    },
+    {
+      "name": "Faux Negatif",
+      "color": -65536
+    },
+    {
+      "name": "EDL",
+      "color": -3834456
+    },
+    {
+      "name": "Vrai positif",
+      "color": -10053274
+    },
+    {
+      "name": "Faux negatif",
+      "color": -5039590
+    },
+    {
+      "name": "Faux positif",
+      "color": -1671091
+    }
+  ]
+}
