@@ -18,7 +18,7 @@ model_name_with_path=${10}
 segm_channel=${11} #0 for gray, 1 for red, 2 for green, 3 for blue
 diameter=${12}
 
-bash $path_to_qupath_bin/QuPath.sh script $path_to_scripts/export_tiles.groovy -p $path_to_project_dir/project.qpproj -i $image_name --args $tile_size --args $overlap_size --save
+bash $path_to_qupath_bin/QuPath.sh script $path_to_scripts/export_tiles_auto.groovy -p $path_to_project_dir/project.qpproj -i $image_name --args $tile_size --args $overlap_size --save
 
 $path_to_conda_env_bin/python $path_to_scripts/runCellpose_fragmented_auto.py $path_to_project_dir/tiles/$(echo $image_name | cut -d'.' -f1) $path_to_mask_storage_directory $use_gpu $model_name_with_path $segm_channel $diameter
 
